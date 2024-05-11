@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("https://cdn.shopify.com/app-store/listing_images/119e46d40447b213e034117eaa5a9382/promotional_image/COWIj4vg2foCEAE=.jpeg?height=720&quality=90&width=1280");
+  background-size: cover;
+}
+
+.form {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 50px 18px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.6);
+}
+
+.input {
+  display: block;
+  padding: 17px 15px;
+  margin: 20px 15px;
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px rgba(0, 0, 0, 0.2) solid;
+  outline: none;
+  border-radius: 15px;
+  width: 200px;
+  color: #211f20;
+  transition: 0.6s border-color;
+}
+
+.form h1 {
+  text-align: center;
+  color: black;
+  letter-spacing: 4px;
+  padding: 5px;
+  margin-left: 100px;
+}
+
+.btn {
+  padding: 17px;
+  width: 100px;
+  margin: 6px 15px;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  color: #004080;
+  font-weight: bold;
+  background: #ccc8bb;
+  transition: 1s background;
+}
+
+.btn:hover {
+  background: #957e6a;
+}
